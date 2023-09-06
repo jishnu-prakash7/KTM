@@ -1,0 +1,246 @@
+/* main */
+*{
+    margin: 0;
+    font-family: Teko,Arial;
+}
+.main{
+    
+    background-image: url(photos/MAINONE.jpeg);
+    height: 800px;
+    background-size: cover;
+   
+}
+
+
+
+/* panel1 */
+
+
+
+.panel{
+    height:145px ;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.panel p{
+    font-weight: 27px;
+    font-family:Teko,Arial;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+.icons{
+  
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.icons i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo{
+    background-image: url(photos/ktmlogo.jpg);
+    height: 180px;
+    width: 200px;
+    background-size: cover;
+
+}
+.panelright{
+    display: flex;
+    margin-left: 350px;
+
+}
+
+/* panel2 */
+
+
+.panel2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Teko,Arial;
+    padding-top: 150px;
+    height: 300px;
+    color: white;
+
+}
+.panel2-top-msg{
+    font-size: 50px;
+    font-weight: bold;
+}
+.panel2-bottom-msg{
+    font-size: 120px;
+    font-weight: bold;
+}
+.panel2boxes,.panelbox1,.panelbox2{
+    font-family: Teko,Arial;
+    height: 75px;
+    font-size: 20px;
+   border: none;
+   margin-right: px;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 30px;
+    
+}
+.panelbox1{
+    
+    background-color:rgb(255, 102, 0) ;
+    transition: 0.15s;
+    border: 1px solid rgb(255, 102, 0) ;
+    margin-right: 50px;
+    
+}
+.panelbox2{
+    color: white;
+    background-color:black ;
+    transition: 0.15s;
+    border: 2px solid black ;
+}
+.panelbox1:hover{
+    background: none;
+    border: 1px solid rgb(255, 102, 0) ;
+}
+.panelbox2:hover{
+    background: none;
+    border: 2px solid black ;
+}
+.panel2boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* maincontent */
+
+
+.boxes{
+    margin-top: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+   
+}
+
+
+.image{
+  height: 400px;
+  width: 450px;
+  object-fit: contain;
+}
+.img-top-msg{
+    
+    font-size: 25px;
+    font-family: Teko,Arial;
+    
+}
+.img-bottom-msg{
+    
+    font-size: 35px;
+    font-family: Teko,Arial;
+    width: 300px;
+}
+.image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 450px;
+    object-fit: contain;
+    margin-bottom: -20px;
+   
+  }
+
+  /* footer */
+
+.panel3{
+    background-color: white;
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel3 p{
+   font-size: 30px;
+   margin-right: 20px;
+   
+}
+.panel3-button{
+    font-size: 27px;
+    background-color:white ;
+    border: solid;
+    color:rgb(255, 102, 0) ;
+    padding: 12px 30px;
+}
+.panel4{
+    font-size: 1rem;
+    border-top: 1px solid;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    
+}
+.panel4 p{
+    width: 800px;
+    text-align: center;
+   
+}
+.panel5{
+    height: 350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    
+}
+.panel5-msg{
+    display: flex;
+    flex-direction: column;
+}
+.panel5-msg p{
+    font-size: 2rem;
+    
+}
+.panel5-msg a{
+    font-size: 1.2rem;
+}
+.panel5-msglast p{
+    font-size: 2rem;
+    
+}
+.panel5-msglast i {
+    font-size: 25px;
+    margin-right: 5px;
+    
+}
+.panel6{
+    background-color: black;
+    height: 80px;    
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    border-top: 2px solid gray;
+}
+
+
+
+
+
+
